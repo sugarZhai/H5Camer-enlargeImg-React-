@@ -1,0 +1,45 @@
+
+.takeBox {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  padding:19px 0;
+
+}
+.takePhoto {
+  flex: 0 50%;
+  font-size:17px;
+  padding-left:60px;
+  position: relative;
+}
+.takefontSize{
+  font-size:15px;
+}
+.takePhoto img{
+  position: absolute;
+  left:19px;
+  top:0;
+  width:35px;
+  height:35.5px;
+}
+.takeBorder{
+  flex: 0 50%;
+  font-size:17px;
+  padding-left:62px;
+  position: relative;
+  border-right:1px solid rgba(0,0,0,0.06);
+}
+.takeBorder img{
+  position: absolute;
+  left:20px;
+  top:0;
+  width:35px;
+  height:35.5px;
+}
+
+
+.takeBottom {
+  width: 100%;
+  background-color: #F5F5F9;
+  height: 8px;
+}
